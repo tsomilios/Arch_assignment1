@@ -86,7 +86,7 @@
   
   Line 12:	sim_seconds	0.000048	# Number of seconds simulated
   
- 
+ ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-minor%20vs%20timing%20cpu.png)
   
   Όπως βλέπουμε οι χρόνοι εκτέλεσης αυξήθηκαν πράγμα λογικό αφού μειώσαμε τη συχνότητα από 1GHz που ήταν προηγουμένως.
   
