@@ -16,12 +16,11 @@
 - membus = SystemXBar()
 - mem_channels = dual
 
-2. α.Από το αρχείο που δημιουργήθηκε από την εντολή `./build/ARM/gem5.opt -d hello_new configs/example/arm/starter_se.py  --cpu=minor tests/test-progs/hello/bin/arm/linux/hello`
-  Και ανοίγοντας το αρχείο **gem5/hello_new/config.ini** βρίσκω ότι :
+2. α.Από το αρχείο που δημιουργήθηκε από την εντολή `./build/ARM/gem5.opt -d hello_new configs/example/arm/starter_se.py  --cpu=minor tests/test-progs/hello/bin/arm/linux/hello`.   Και ανοίγοντας το αρχείο **gem5/hello_new/config.ini** βρίσκω ότι :
 
 - Line 65: type=MinorCPU
 - Line 1652: system voltage=3.3
-- Line 44: clock=1000		(δηλαδή 1/1000ticks = 1/[10^(-9)] = 1GHz)  
+- Line 44: clock=1000 [^1]
 - Line 1339: cluster voltage=1.2
 - Line 58: clock=250		(δηλαδή 1/250ticks = 4/[10^(-9)] = 4GHz)
 - Line 20: mem_mode=timing
@@ -119,3 +118,5 @@
     ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-ALL.png)
     
     Όπως παρατηρούμε λιγότερο χρόνο εκτέλεσης έχει ο CPU minor και με τύπο μνήμης ddr3 2133 8x8
+    
+[^1]:(δηλαδή 1/1000ticks = 1/[10^(-9)] = 1GHz) 
