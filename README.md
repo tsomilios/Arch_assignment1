@@ -64,6 +64,8 @@
   
   Line 12:	sim_seconds	0.000042	# Number of seconds simulated
   
+  ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-Minor%20vs%20Timing.png)
+  
 3. β.Ο χρόνος στην περίπτωση του TimingSimpleCPU είναι μεγαλύτερος από την περίπτωση του MinorCPU. Αυτό συμβαίνει διότι στην περίπτωση του TimingSimpleCPU περιμένει την προσπέλαση μνήμης να τελειώσει πριν συνεχίσει ενώ δεν υποστηρίζει pipeline. Από την άλλη, το MinorCPU έχει pipeline τεσσάρων σταδίων. Επίσης, παρατηρούμε ότι οι κύκλοι που προσομοιώθηκαν στην περίπτωση του MinorCPU είναι 113218 ενώ στον TimingSimpleCPU είναι 165590. Αυτό συμβαίνει γιατί όπως αναφέραμε στην περίπτωση του Timing memory access απαιτούνται πολλαπλοί κύκλοι.
 
 3. γ.1.Αλλάζοντας πρώτα την συχνότητα του επεξεργαστή από τα 1Ghz στα 500Mhz 
@@ -84,6 +86,8 @@
   
   Line 12:	sim_seconds	0.000048	# Number of seconds simulated
   
+  ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-minor%20vs%20timing%20cpu.png)
+  
   Όπως βλέπουμε οι χρόνοι εκτέλεσης αυξήθηκαν πράγμα λογικό αφού μειώσαμε τη συχνότητα από 1GHz που ήταν προηγουμένως.
   
 3. γ.2Τώρα αλλάζοντας την τεχνολογία μνήμης σε DDR3_2133_8x8
@@ -103,6 +107,8 @@
 - TimingSimpleCPU
   
   Line 12:	sim_seconds	0.000041	# Number of seconds simulated
+  
+  ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-Minor%20vs%20Timing%20ram.png)
   
   Παρατηρούμε ότι μειώθηκαν οι χρόνοι εκτέλεσης από την αρχική μας περίπτωση. Αυτό είναι λογικό αφού αρχικά είχαμε DDR3_1600_8x8 : (1.6 x 8 x 8 / 8 = 12.8 GBps) και τώρα DDR3_2133_8x8 : (2.133 x 8 x 8 / 8 = 17.0 GBps).
 
