@@ -20,12 +20,12 @@
 
 - Line 65: type=MinorCPU
 - Line 1652: system voltage=3.3
-- Line 44: clock=1000 [^1]
+- Line 44: clock=1000 (δηλαδή 1/1000ticks = 1/[10^(-9)] = 1GHz)
 - Line 1339: cluster voltage=1.2
 - Line 58: clock=250		(δηλαδή 1/250ticks = 4/[10^(-9)] = 4GHz)
 - Line 20: mem_mode=timing
 - Line 1610: type=CoherentXBar
-- Line 113: numThreads=1
+- Line 113: numThreads=1 
 
 2. β.Από το ίδιο directory με το 2α αλλά από το αρχείο **gem5/hello_new/stats.txt** έχω:
 
@@ -118,5 +118,4 @@
     ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-ALL.png)
     
     Όπως παρατηρούμε λιγότερο χρόνο εκτέλεσης έχει ο CPU minor και με τύπο μνήμης ddr3 2133 8x8
-    
-[^1]:(δηλαδή 1/1000ticks = 1/[10^(-9)] = 1GHz) 
+
