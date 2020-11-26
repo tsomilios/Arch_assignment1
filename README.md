@@ -8,19 +8,21 @@
 - voltage domain = 3.3V
 - clk_domain = 1GHz
 - cpu. cluster.voltage_domain = 1.2V
-- cpu.cluster.clk_domain = 4GHz
+- cpu_dfreq = 4GHz
+- cpu_num_cores = 1
 - mem_mode = timing
+- mem_type = DDR3 1600 8x8
 - mem-size default=2Gb
 - membus = SystemXBar()
-- num-cores default=1
+- mem_channels = dual
 
 2. α.Από το αρχείο που δημιουργήθηκε από την εντολή `./build/ARM/gem5.opt -d hello_new configs/example/arm/starter_se.py  --cpu=minor tests/test-progs/hello/bin/arm/linux/hello`
   Και ανοίγοντας το αρχείο **gem5/hello_new/config.ini** βρίσκω ότι :
 
 - Line 65: type=MinorCPU
-- Line 1652: voltage=3.3
+- Line 1652: system voltage=3.3
 - Line 44: clock=1000		(δηλαδή 1/1000ticks = 1/[10^(-9)] = 1GHz)  
-- Line 1339: voltage=1.2
+- Line 1339: cluster voltage=1.2
 - Line 58: clock=250		(δηλαδή 1/250ticks = 4/[10^(-9)] = 4GHz)
 - Line 20: mem_mode=timing
 - Line 1610: type=CoherentXBar
