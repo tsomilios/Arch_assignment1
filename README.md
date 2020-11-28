@@ -1,6 +1,8 @@
 # Αρχιτεκτονική Υπολογιστών
 ### Ομάδα 19
-#### Κουργιαντάκης Γεώργιος (8592) - Τσομλεκτσόγλου Βασίλειος (8259)
+#### Κουργιαντάκης Γεώργιος (8592) 
+#### Τσομλεκτσόγλου Βασίλειος (8259)
+_____________________________________________________________________________________________________
 
 
 ### Ερώτημα 1  
@@ -143,5 +145,5 @@ _c2_)
 ###### Βιβλιογραφία :
 - [gem5.org](https://www.gem5.org/ "gem5 Official Website")
 - [Arm Research Starter Kit: System Modeling using gem5 by Ashkan Tousi and Chuan ZhuJuly 2017 (updated October 2020)](https://raw.githubusercontent.com/arm-university/arm-gem5-rsk/master/gem5_rsk.pdf)
--[Diagramms](https://app.diagrams.net/)
+- [Diagramms](https://app.diagrams.net/)
 
