@@ -1,22 +1,35 @@
-# Arch_assinfnment1
+# Αρχιτεκτονική Υπολογιστών
+### Ομάδα 19
+#### Κουργιαντάκης Γεώργιος (8592) - Τσομλεκτσόγλου Βασίλειος (8259)
 
-**Ερωτήματα πρώτου μέρους**
 
-1. Από το αρχείο **/gem5/configs/example/arm/starter_se.py** βρίσκω ότι:
-- ΤύποςCPU: AtomicSimpleCPU, MinorCPU, HPI (χρησιμοποιούμε  Minor)
-- Μνήμη  L1, L2 cache 
-- voltage domain = 3.3V
-- clk_domain = 1GHz
-- cpu. cluster.voltage_domain = 1.2V
-- cpu_dfreq = 4GHz
-- cpu_num_cores = 1
-- mem_mode = timing
-- mem_type = DDR3 1600 8x8
-- mem-size default=2Gb
-- membus = SystemXBar()
-- mem_channels = dual
+### Ερώτημα 1  
+Οι βασικές παράμετροι που δίνονται απο το _starter_se.py_ αρχείο είναι οι εξής:
+Τυπος __CPU__: 
+* AtomicSimpleCPU,
+* MinorCPU,
+* hpi.  
+Σύμφωνα με την εντολή , εμείς χρησιμοποιήσαμε το MinorCPU.
 
-2. α.Από το αρχείο που δημιουργήθηκε από την εντολή `./build/ARM/gem5.opt -d hello_new configs/example/arm/starter_se.py  --cpu=minor tests/test-progs/hello/bin/arm/linux/hello`.   Και ανοίγοντας το αρχείο **gem5/hello_new/config.ini** βρίσκω ότι :
+__Cache__:  
+L1 L2 cache με fixed cache line size στα 64 bytes  
+η L1 private και η L2 shared
+
+Στα __χαρακτηριστικά__ του συστήματος του παραδείγματος δίνονται:  
+* voltage_domain= 3.3 V
+* clk_domain= 1GHz
+* cpu.cluster.voltage_domain =1.2 V
+* cpu.cluster.clk_domain = 4GHz
+* num-cores default = 1
+* membus = SystemXBar()
+* Memory type = DDR3_1600_8x8
+* mem-channels = 2
+* mem-size default = 2Gb
+
+
+### Ερώτημα 2  
+_a_)  
+Σύμφωνα με την αναζήτηση στο αρχείο [hello_new/config.ini](https://github.com/tsomilios/Arch_assignment1/blob/readme/hello_new/config.ini) μπορούμε να επιβεβαιώσουμε πως τα παρακάτω χαρακτηριστικά είναι τα :  
 
 - Line 65: type=MinorCPU
 - Line 1652: system voltage=3.3
@@ -27,17 +40,20 @@
 - Line 1610: type=CoherentXBar
 - Line 113: numThreads=1 
 
-2. β.Από το ίδιο directory με το 2α αλλά από το αρχείο **gem5/hello_new/stats.txt** έχω:
+_b_)  
+Σύμφωνα με την αναζήτηση στο αρχείο [hello_new/stats.txt](https://github.com/tsomilios/Arch_assignment1/blob/readme/hello_new/stats.txt) για τον αριθμό εντολών  παρατηρούμε πως:
 
 - Line 14 5028 #number of instructions committed
 - Line 77 5834 #total committed instructions
 
-2. c.Από το ίδιο αρχείο έχω:
+_c_)  
+Από το ίδιο αρχείο για τους αριθμούς προσπελάσεων δίνεται:
 
 - Line 622: 7884 number of tag accesses
 - Line 623: 7884 number of data accesses
 
-3. Μερικά μοντέλα in-order CPUs που χρησιμοποιεί ο gem5 είναι τα εξής: 
+### Ερώτημα 3  
+Μερικά μοντέλα in-order CPUs που χρησιμοποιεί ο gem5 είναι τα εξής: 
 
 - **AtomicSimpleCPU**: Αυτό το μοντέλο χρησιμοποιεί Atomic memory access δηλαδή εκπληρώνει ένα transaction σε ένα μόνο κάλεσμα συνάρτησης. Αυτός ο τύπος memory access μοντελοποιεί τις αλλαγές κατάστασης και υπολογίζει τον κατά προσέγγιση λανθάνοντα χρόνο γρήγορα, χωρίς καθυστερήσεις, πράγμα που το καθιστά κατάλληλο για loosely timed προσομοιώσεις (fast-forwarding) ή cache warming. Έτσι, ο AtomicSimpleCPU εκτελεί όλες τις λειτουργίες για μια εντολή σε κάθε CPU tick() και μπορεί να πάρει μια γενική εκτίμηση του συνολικού χρόνου προσπέλασης στην cache υπολογίζοντας το latency από τις atomic προσπελάσεις.
 
@@ -47,15 +63,8 @@
 
 - **High-Performance In-order (HPI) CPU**: Το μοντέλο αυτό είναι βασισμένο στην αρχιτεκτονική Arm και το ονομάζουμε HPI. To HPI CPU timing model ρυθμίζεται για να αντιπροσωπεύει μια μοντέρνα in-order Armv8-A εφαρμογή. Το pipeline του HPI CPU χρησιμοποιεί το ίδιο four-stage μοντέλο όπως ο MinorCPU που αναφέραμε προηγουμένως.
 
-3. α.Εκτελώντας το πρόγραμμα **gem5/myprogam/myprog_arm** (το οποίο βρίσκει από 3 αριθμούς τον μεγαλύτερο) με την εντολή 
-
-    Για MinorCPU
-
-    `./build/ARM/gem5.opt -d c_prog_minor configs/example/se.py --cpu=MinorCPU –-caches -c /myprogram/myprog_arm`  παίρνω από **/gem5/c_prog_minor/stats.txt**
-
-    Για TimingSimpleCPU
-
-    `./build/ARM/gem5.opt -d c_prog_time configs/example/se.py --cpu=TimingSimpleCPU -–caches -c /myprogram/myprog_arm`  παίρνω από **/gem5/c_prog_time/stats.txt**
+_a_)  
+Εκτελώντας ένα απλό πρόγραμμα [gem5/myprogam/myprog_arm**](https://github.com/tsomilios/Arch_assignment1/blob/readme/myprogram/myprog.c) το οποίο βρίσκει από 3 αριθμούς τον μεγαλύτερο έχουμε τα παρακάτω αποτελέσματα:
 
 - MinorCPU
   
@@ -67,9 +76,19 @@
   
     ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-Minor%20vs%20Timing.png)
   
-3. β.Ο χρόνος στην περίπτωση του TimingSimpleCPU είναι μεγαλύτερος από την περίπτωση του MinorCPU. Αυτό συμβαίνει διότι στην περίπτωση του TimingSimpleCPU περιμένει την προσπέλαση μνήμης να τελειώσει πριν συνεχίσει ενώ δεν υποστηρίζει pipeline. Από την άλλη, το MinorCPU έχει pipeline τεσσάρων σταδίων. Επίσης, παρατηρούμε ότι οι κύκλοι που προσομοιώθηκαν στην περίπτωση του MinorCPU είναι 113218 ενώ στον TimingSimpleCPU είναι 165590. Αυτό συμβαίνει γιατί όπως αναφέραμε στην περίπτωση του Timing memory access απαιτούνται πολλαπλοί κύκλοι.
+_b_)  
+Στην περίπτωση του TimingSimpleCPU ο χρόνος είναι μεγαλύτερος από ότι στον MinorCPU καθώς 
+στον TimingSimpleCPU, όπως είπαμε παραπάνω περιμένει το πέρας της προσπέλασης της μνήμης 
+μέχρι να συνεχίσει και επιπλέον δεν διαθέτει pipeline. Ενώ ο MinorCpu από την άλλη έχει 
+pipeline τεσσάρων σταδίων. Ένας ακόμα λόγος που ο MinorCPU έχει μικρότερο χρόνο είναι και ο
+συνολικός αριθμός κύκλων των επεξεργαστών όπως φαίνεται παρακάτω.
 
-3. γ.1.Αλλάζοντας πρώτα την συχνότητα του επεξεργαστή από τα 1Ghz στα 500Mhz 
+
+* TimingSimpleCPU : 83836 # number of cpu cycles simulated
+* MinorCPU        : 66868 # number of cpu cycles simulated
+
+_c1_)  
+Πρώτα θα πραγματοποιήσουμε προσομοίωση χαμηλώνοντας τη συχνότητα απο τα 1GHz, σε καινούργια με τιμή 500MHz και τα αποτελέσματα αυτής δίνονται παρακάτω: 
 
     Για MinorCPU με την εντολή 
     
