@@ -88,37 +88,23 @@ pipeline τεσσάρων σταδίων. Ένας ακόμα λόγος που 
 * MinorCPU        : 66868 # number of cpu cycles simulated
 
 _c1_)  
-Πρώτα θα πραγματοποιήσουμε προσομοίωση χαμηλώνοντας τη συχνότητα απο τα 1GHz, σε καινούργια με τιμή 500MHz και τα αποτελέσματα αυτής δίνονται παρακάτω: 
-
-    Για MinorCPU με την εντολή 
-    
-    `./build/ARM/gem5.opt -d c_prog_minor_clock50 configs/example/se.py --cpu=MinorCPU *–-sys-clock500000000*  –-caches -c /myprogram/myprog_arm` παίρνω από **/gem5/c_prog_minor_clock50/stats.txt**
-
-    Για TimingSimpleCPU με την εντολή
-
-    `./build/ARM/gem5.opt -d c_prog_time_clock50 configs/example/se.py --cpu= TimingSimpleCPU CPU *–-sys-clock500000000*  –-caches -c /myprogram/myprog_arm`  παίρνω από **/gem5/c_prog_time_clock50/stats.txt**
+Πρώτα θα πραγματοποιήσουμε προσομοίωση χαμηλώνοντας τη συχνότητα απο τα *1GHz*, σε καινούργια με τιμή *500MHz* και τα αποτελέσματα αυτής που προκύπτουν απο τα αρχεία [c_prog_minor_clock50/stats.txt](https://github.com/tsomilios/Arch_assignment1/blob/readme/c_prog_minor_clock50/stats.txt) και [c_prog_time_clock50/stats.txt](https://github.com/tsomilios/Arch_assignment1/blob/readme/c_prog_time_clock50/stats.txt) αντίστοιχα δίνονται παρακάτω: 
 
 - MinorCPU
   
-  Line 12:	sim_seconds	0.000039	# Number of seconds simulated
+  Line 12:	sim_seconds	0.000039	# Number of seconds simulated 
   
 - TimingSimpleCPU
   
   Line 12:	sim_seconds	0.000048	# Number of seconds simulated
   
     ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-minor%20vs%20timing%20cpu.png)
-  
-  Όπως βλέπουμε οι χρόνοι εκτέλεσης αυξήθηκαν πράγμα λογικό αφού μειώσαμε τη συχνότητα από 1GHz που ήταν προηγουμένως.
-  
-3. γ.2Τώρα αλλάζοντας την τεχνολογία μνήμης σε DDR3_2133_8x8
-
-    Για MinorCPU με την εντολή 
-
-    `./build/ARM/gem5.opt -d c_prog_minor_ram configs/example/se.py --cpu=MinorCPU *–-mem-type=DDR3_2133_8x8*  -–caches -c /myprogram/myprog_arm`  παίρνω από **/gem5/c_prog_minor_ram/stats.txt**
     
-    Για TimingSimpleCPU με την εντολή
-
-    `./build/ARM/gem5.opt -d c_prog_time_ram configs/example/se.py --cpu= TimingSimpleCPU CPU *-–mem-type=DDR3_2133_8x8*  -–caches -c /myprogram/myprog_arm`  παίρνω από **/gem5/c_prog_time_ram/stats.txt**
+    
+  Είναι ορατό πως οι χρόνοι αυξήθηκαν , πράγμα λογικό καθώς μειώσαμε την συχνότητα των επεξεργαστών.
+  
+_c2_)  
+Τώρα θα πραγματοποιήσουμε προσομοίωση αλλάζοντας την τεχνολογία μνήμης από *DDR3_1600_8x8* σε *DDR3_2133_8x8* τα αποτελέσματα της οποίας προκύπτουν απο τα αρχεία [c_prog_minor_ram/stats.txt](https://github.com/tsomilios/Arch_assignment1/blob/readme/c_prog_minor_ram/stats.txt) και [c_prog_time_ram/stats.txt](https://github.com/tsomilios/Arch_assignment1/blob/readme/c_prog_time_ram/stats.txt) αντίστοιχα και δίνονται παρακάτω:
 
 - MinorCPU
   
@@ -130,11 +116,33 @@ _c1_)
   
   ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-Minor%20vs%20Timing%20ram.png)
   
-  Παρατηρούμε ότι μειώθηκαν οι χρόνοι εκτέλεσης από την αρχική μας περίπτωση. Αυτό είναι λογικό αφού αρχικά είχαμε DDR3_1600_8x8 : (1.6 x 8 x 8 / 8 = 12.8 GBps) και τώρα DDR3_2133_8x8 : (2.133 x 8 x 8 / 8 = 17.0 GBps).
+  Παρατηρούμε πως οι χρόνοι εκτέλεσης μειώθηκαν σε σχέση με την αρχική περίπτωση, το οποίο περιμέναμε καθώς αρχικά είχαμε  DDR3_1600_8x8 : (1.6 x 8 x 8 / 8 = 12.8 GBps) και τώρα DDR3_2133_8x8 : (2.133 x 8 x 8 / 8 = 17.0 GBps) η οπόια ειναι ταχύτερη μνήμη.
 
-4. Το τελικό διάγραμμα από τις τιμές που παρατέθηκαν παραπάνω είναι το εξής :
+
+### Το τελικό διάγραμμα από τις τιμές που παρατέθηκαν παραπάνω είναι το εξής :
 
     ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-ALL.png)
     
     Όπως παρατηρούμε λιγότερο χρόνο εκτέλεσης έχει ο CPU minor και με τύπο μνήμης ddr3 2133 8x8
 
+
+#### Κριτική Εργασίας
+- Θετικά :
+   - Ήταν ένα μικρό Project το οποίο μας προέτρεψε να ασχοληθούμε περισσότερο με το περιβάλλον linux και να πάρουμε hands on εμπειρία πάνω σε αυτό καθώς και το πρόγραμμα Gem5. Αναγκαστήκαμε να αφιερώσουμε χρόνο και αν συνηθίσουμε που ξέρουμε πως μελλοντικά θα μας προσφέρει την εμπειρία σε παρόμοια Project. Σαν αρχικό κομμάτι της εργασίας ήταν βατό και αυτό φαινόταν από την δυσκολία των ερωτημάτων η οποία δεν ήταν μεγάλη και κύριο σκοπό είχε την εξοικείωση μας με το περιβάλλον του gem5 καθώς και με τις δυνατότητες που προσφέρει.
+   -Το αρχείο pdf το οποιο μας δόθηκε για να διεκπεραιωθεί η εργασία ήταν βοηθητικό για αυτούς που ήθελαν πραγματικά να παρακολουθήσουν το μάθημα. Προσέφερε σαφείς οδηγίες ως προς τον τρόπο εγκατάστασης και λειτουργίας του περιβάλλοντος αλλά παρ. όλα αυτά δεν ήταν υπερβολικά λεπτομερές αφήνοντας μας χώρο να σκεφτούμε και να λύσουμε τυχόν προβλήματα που προκύπταν. Ο τρόπος αυτός μας έδωσε αργότερα την αυτοπεποίθηση να προχωράμε με μεγαλύτερη σιγουριά στα επόμενα βήματα.
+   - Η χρήση του github είναι πολύ σημαντική για την ολοκλήρωση πολλών μεγάλων Project τόσο στον εργασιακό και τον τομέα της αγοράς όσο και στον εκπαιδευτικό, οπότε η επιλογή να γίνεται εδώ η πληροφόρηση σας για το Project μας εξοικειώνει με τα σημερινά δεδομένα.
+   
+- Αρνητικά :
+    - Η πρώτη επαφή με την εργασία μας μπέρδεψε αρκετά και το pdf τις πρώτες φορές που το διαβάσαμε είναι η αλήθεια δεν βοήθησε ιδιαίτερα. Διαβάζοντας γενικές πληροφορίες για τον gem5 επίσης δεν βοήθησε οπότε προσπαθούσαμε με την χρήση το pdf να βρούμε τα πατήματα μας.
+    - Η εγκατάσταση του περιβάλλοντος των Ubuntu απευθείας σε δίσκο αποδείχθηκε χειρότερη επιλογή από ότι σε VM εντέλει καθώς μας έβγαζε διαρκώς ergo σε πολλά σημεία και δεν επέτρεπε να τρέξουμε τις εξομοιώσεις που απαιτούσε η εργασία. Επίσης εμφάνιζε πρόβλημα με την εντολή protobuf την οποία προσπαθήσαμε να εγκαταστήσουμε και από πολλά διαφορετικά μέρη. Μην βρίσκοντας λύση σε αυτό το πρόβλημα και οι 2 χρησιμοποιήσαμε VM στο οποίο και καταφέραμε να φέρουμε ει πέρας την εργασία.
+    
+- Τελικά :
+   -Γενικά θεωρούμε πως η εργασία δεν ήταν υπερβολικά εύκολη αλλά ούτε και δύσκολη. Είχε καλό επίπεδο δυσκολίας ώστε να μας επιτρέψει να γνωρίσουμε καλυτέρα τα Line και gem5 και όταν ξεπεράστηκαν τα προβλήματα εγκατάστασης και προσομοιώσεων ήταν απλά θέμα αφιέρωσης χρόνου. Σίγουρα μας έδωσε την όρεξη να ασχοληθούμε περαιτέρω με την αρχιτεκτονική υπολογιστών..
+   
+
+###### Βιβλιογραφία :
+- [gem5.org](https://www.gem5.org/ "gem5 Official Website")
+- [Arm Research Starter Kit: System Modeling using gem5 by Ashkan Tousi and Chuan Zhu
+July 2017 (updated October 2020)](https://raw.githubusercontent.com/arm-university/arm-gem5-rsk/master/gem5_rsk.pdf)
+-[Diagramms](https://app.diagrams.net/)
+-
