@@ -8,8 +8,9 @@ int main()
   printf("\nEnter value of num1, num2 and num3:");
 
    //Store input values in variables for comparsion
-
- num1=1,num2=2,num3=3;
+   //scanf("%d %d %d",&num1,&num2,&num3);
+   
+   num1=1,num2=2,num3=3;
 
    if((num1>num2)&&(num1>num3))
       printf("\n Number1 is greatest");
