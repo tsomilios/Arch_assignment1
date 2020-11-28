@@ -121,7 +121,7 @@ _c2_)
 
 ### Το τελικό διάγραμμα από τις τιμές που παρατέθηκαν παραπάνω είναι το εξής :
 
-    ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-ALL.png)
+   ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-ALL.png)
     
     Όπως παρατηρούμε λιγότερο χρόνο εκτέλεσης έχει ο CPU minor και με τύπο μνήμης ddr3 2133 8x8
 
@@ -144,5 +144,6 @@ _c2_)
 - [gem5.org](https://www.gem5.org/ "gem5 Official Website")
 - [Arm Research Starter Kit: System Modeling using gem5 by Ashkan Tousi and Chuan Zhu
 July 2017 (updated October 2020)](https://raw.githubusercontent.com/arm-university/arm-gem5-rsk/master/gem5_rsk.pdf)
+
 -[Diagramms](https://app.diagrams.net/)
 -
