@@ -142,8 +142,6 @@ _c2_)
 
 ###### Βιβλιογραφία :
 - [gem5.org](https://www.gem5.org/ "gem5 Official Website")
-- [Arm Research Starter Kit: System Modeling using gem5 by Ashkan Tousi and Chuan Zhu
-July 2017 (updated October 2020)](https://raw.githubusercontent.com/arm-university/arm-gem5-rsk/master/gem5_rsk.pdf)
-
+- [Arm Research Starter Kit: System Modeling using gem5 by Ashkan Tousi and Chuan ZhuJuly 2017 (updated October 2020)](https://raw.githubusercontent.com/arm-university/arm-gem5-rsk/master/gem5_rsk.pdf)
 -[Diagramms](https://app.diagrams.net/)
--
+
