@@ -441,6 +441,8 @@ ________________________________________________________________________________
 
 * Jeng : [(L1d+L1i)x0.000965 + L2x0.00027]  = 160 x 0.00095 + 1024 x 0.00027 € = 0.152 + 0.2764 € = *0.4284 €*
 
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/price.png)
+
 Δεν υπολόγισα σαν παραμέτρους τα L1d Assoc ,L1i Assoc , L2assoc ,cache line size διότι σε όλα τα benchmark είχα τις μικρότερες τιμές cpi για 2 ,2 ,4 , 64 (fancy word goes here).
 
 
