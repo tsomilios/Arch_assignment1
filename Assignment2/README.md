@@ -443,7 +443,7 @@ ________________________________________________________________________________
 
 ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/price.png)
 
-Δεν υπολόγισα σαν παραμέτρους τα L1d Assoc ,L1i Assoc , L2assoc ,cache line size διότι σε όλα τα benchmark είχα τις μικρότερες τιμές cpi για 2 ,2 ,4 , 64 (fancy word goes here).
+Δεν υπολόγισα σαν παραμέτρους τα L1d Assoc ,L1i Assoc , L2 Assoc ,cache line size διότι σε όλα τα benchmark είχα τις μικρότερες τιμές cpi για 2 ,2 ,4 , 64 (fancy word goes here).
 
 
 
