@@ -246,6 +246,8 @@ ________________________________________________________________________________
 
   perigrafi
 
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/ss1vs2.png)
+
 ## Βήμα 2
 
 ### Ερωτήμα 1
