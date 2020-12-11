@@ -10,14 +10,18 @@ ________________________________________________________________________________
 #### Από το αρχείο _config.json_ των benchmarks έχω 
 
 * Chace line: 
-  Cache line size = 64
+  
+  		Cache line size = 64
 
 * L1:
-  Dcache: size = 65536 ~= 64Kb  Assoc = 2
-  Icache: size=32768  ~=32Kb  Assoc = 2
+  
+  		Dcache: size = 65536 ~= 64Kb  Assoc = 2
+  
+  		Icache: size=32768  ~=32Kb  Assoc = 2
 
 * L2:
-	Size=2097152 ~=2Mb  Assoc=8
+
+		Size=2097152 ~=2Mb  Assoc=8
 
 ### Ερώτημα 2
 
