@@ -1,0 +1,17 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+sl1d_size=32kB_l1i_size=64kB_l2_size=512kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.708180	0.020094	0.000072	0.290883
+sl1d_size=32kB_l1i_size=64kB_l2_size=512kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.683344	0.017824	0.000068	0.320352
+sl1d_size=32kB_l1i_size=64kB_l2_size=1024kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.684874	0.020098	0.000072	0.244426
+sl1d_size=32kB_l1i_size=64kB_l2_size=1024kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.655220	0.017828	0.000068	0.262757
+sl1d_size=32kB_l1i_size=128kB_l2_size=512kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.708117	0.020094	0.000068	0.290884
+sl1d_size=32kB_l1i_size=128kB_l2_size=512kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.683461	0.017824	0.000066	0.320353
+sl1d_size=32kB_l1i_size=128kB_l2_size=1024kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.684874	0.020097	0.000068	0.244429
+sl1d_size=32kB_l1i_size=128kB_l2_size=1024kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.655220	0.017828	0.000066	0.262760
+sl1d_size=64kB_l1i_size=64kB_l2_size=512kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.669159	0.016066	0.000072	0.367441
+sl1d_size=64kB_l1i_size=64kB_l2_size=512kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.648959	0.014115	0.000068	0.410497
+sl1d_size=64kB_l1i_size=64kB_l2_size=1024kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.646273	0.016069	0.000072	0.308833
+sl1d_size=64kB_l1i_size=64kB_l2_size=1024kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.620858	0.014121	0.000068	0.336714
+sl1d_size=64kB_l1i_size=128kB_l2_size=512kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.669159	0.016066	0.000068	0.367449
+sl1d_size=64kB_l1i_size=128kB_l2_size=512kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.649105	0.014117	0.000066	0.410503
+sl1d_size=64kB_l1i_size=128kB_l2_size=1024kB_1i_assoc=2_l1d_assoc=2_l2_assoc=8_cacheline_size=64	1.646196	0.016068	0.000068	0.308836
+sl1d_size=64kB_l1i_size=128kB_l2_size=1024kB_1i_assoc=22_l1d_assoc=22_l2_assoc=4_cacheline_size=64	1.620908	0.014120	0.000066	0.336718
