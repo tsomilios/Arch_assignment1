@@ -415,21 +415,23 @@ ________________________________________________________________________________
 
 ## Βήμα 3
 
-Για μια προσέγγισης της αρχικής της τιμής σκέφτηκα να παραλληλίσω την τιμή ενός hdd (0.04/GB) με την τιμή της l2 και την τιμή ενός ssd (0,14/Gb) με την τιμή της l1 d cache και l1 I cache . Βρίσκω ότι η τιμή της l1cache είναι 3,5 φορές ακριβότερη από ότι αυτή της l2 ,κάτι που μου φάνηκε στην αρχή ορθό αλλά μετρά από ερευνά(googlαρισμα) βρήκα σε ένα [thread](https://www.quora.com/How-much-does-static-RAM-cost-per-MB-or-GB-When-did-PCs-use-static-RAM) που συζητούσαν για της μνήμες ότι :
+Για μια προσέγγισης της αρχικής της τιμής σκέφτηκα να παραλληλίσω την τιμή ενός hdd (0.04/Gb) με την τιμή της l2 και την τιμή ενός ssd (0,14/Gb) με την τιμή της l1 d cache και l1 I cache . Βρίσκω ότι η τιμή της l1cache είναι 3,5 φορές ακριβότερη από ότι αυτή της l2 ,κάτι που μου φάνηκε στην αρχή ορθό αλλά μετρά από ερευνά(googlαρισμα) βρήκα σε ένα [thread](https://www.quora.com/How-much-does-static-RAM-cost-per-MB-or-GB-When-did-PCs-use-static-RAM) που συζητούσαν για της μνήμες ότι :
 
 >in terms of raw fabrication cost - SRAM is about 20X the cost per bit as DRAM for large memory sizes. However for smaller memories (Up to a few MB) SRAM is actually cheaper as the control logic to go around the memory core is much simpler. It is more complicated than that - as there is no real mass market for large sized sram chips. So if you want to buy the chips you are comparing the cost of a mass market product with huge production volumes to a niche product with relatively tiny production runs. This has a huge effect on end price” 
 
  . Στην δικιά μας περίπτωση μιλάμε για λίγα KB ανά μνήμη (το οποίο δεν την καθιστά πολύ ακριβή). Λαμβάνοντας υπόψιν τις διακυμάνσεις στην τιμή ανάλογα με την ποσότητα  [πχ.](https://www.digikey.com/en/products/detail/cypress-semiconductor-corp/CY62157GE30-45BVXI/12316366) και υποθέτοντας ότι μιλάμε για μαζική παραγωγή  . 
 
-Επιλεγώ base price για την l1 cache 0,988€/Mb ή 0.000965€/KKB.
+Επιλεγώ base price για την l1 cache 0,988€/Mb ή 0.000965€/Kb.
 
-Και για την l2 base price (0,000965/3,5)€/KKB δηλαδή 0.00027€/KKB.
+Και για την l2 base price (0,000965/3,5)€/Kb δηλαδή 0.00027€/Kb.
 
 Έτσι το κόστος για κάθε μια περίπτωση είναι το εξής :
 
 * Bzip : [(L1d+L1i)*0.000965 + L2*0.00027]  = 128*0.00095 + 1024*0.00027€=0.1216+0.2764 €=0.398 €
 
 * Limb : [(L1d+L1i)*0.000965 + L2*0.00027]  = 160*0.00095 + 1024*0.00027€=0.152+0.2764 €=0.4284 €
+
+* Hmmer : [(L1d+L1i)*0.000965 + L2*0.00027]  = 160*0.00095 + 512*0.00027€=0.152+0.13824 €=0.29024 €
 
 * Mcf : [(L1d+L1i)*0.000965 + L2*0.00027]  = 128*0.00095 + 1024*0.00027€=0.1216+0.2764 €=0.398 €
 
