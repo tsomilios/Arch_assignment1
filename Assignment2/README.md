@@ -160,6 +160,15 @@ ________________________________________________________________________________
 
 #### Γραφήματα
 
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All1.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All2.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All3.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All4.png)
 
 ### Ερώτημα 3
 
@@ -354,23 +363,53 @@ ________________________________________________________________________________
 
 * Bzip
 
-![Διαγραμμα]()
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/bzip.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/bzip1.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/bzip2.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/bzip3.png)
 
 * Mcf
 
-![Διαγραμμα]()
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/mcf.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/mcf1.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/mcf2.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/mcf3.png)
 
 * Hmmer
 
-![Διαγραμμα]()
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/hmmer.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/hmmer1.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/hmmer2.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/hmmer3.png)
 
 * Lbm
 
-![Διαγραμμα]()
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/libm.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/libm1.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/libm2.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/libm3.png)
 
 * Jebg
 
-![Διαγραμμα]()
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/jeng.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/jeng1.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/jeng2.png)
+
+![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/jeng3.png)
 
 ## Βήμα 3
 
