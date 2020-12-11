@@ -76,7 +76,7 @@ _a_)
   
   Line 12:	sim_seconds	0.000042	# Number of seconds simulated
   
-    ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-Minor%20vs%20Timing.png)
+    ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment1/png/Untitled%20Diagram-Minor%20vs%20Timing.png)
   
 _b_)  
 Στην περίπτωση του TimingSimpleCPU ο χρόνος είναι μεγαλύτερος από ότι στον MinorCPU καθώς 
@@ -100,7 +100,7 @@ _c1_)
   
   Line 12:	sim_seconds	0.000048	# Number of seconds simulated
   
-    ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-minor%20vs%20timing%20cpu.png)
+    ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment1/png/Untitled%20Diagram-minor%20vs%20timing%20cpu.png)
     
     
   Είναι ορατό πως οι χρόνοι αυξήθηκαν , πράγμα λογικό καθώς μειώσαμε την συχνότητα των επεξεργαστών.
@@ -116,14 +116,14 @@ _c2_)
   
   Line 12:	sim_seconds	0.000041	# Number of seconds simulated
   
-  ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-Minor%20vs%20Timing%20ram.png)
+  ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment1/png/Untitled%20Diagram-Minor%20vs%20Timing%20ram.png)
   
   Παρατηρούμε πως οι χρόνοι εκτέλεσης μειώθηκαν σε σχέση με την αρχική περίπτωση, το οποίο περιμέναμε καθώς αρχικά είχαμε  DDR3_1600_8x8 : (1.6 x 8 x 8 / 8 = 12.8 GBps) και τώρα DDR3_2133_8x8 : (2.133 x 8 x 8 / 8 = 17.0 GBps) η οπόια ειναι ταχύτερη μνήμη.
 
 
 ### Το τελικό διάγραμμα από τις τιμές που παρατέθηκαν παραπάνω είναι το εξής :
 
-   ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Untitled%20Diagram-ALL.png)
+   ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment1/png/Untitled%20Diagram-ALL.png)
     
     Όπως παρατηρούμε λιγότερο χρόνο εκτέλεσης έχει ο CPU minor και με τύπο μνήμης ddr3 2133 8x8
 
