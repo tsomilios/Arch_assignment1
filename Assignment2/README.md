@@ -164,13 +164,23 @@ ________________________________________________________________________________
 
 #### Γραφήματα
 
+* SIM SECONDS
+
 ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All.png)
+
+* CPU CPI
 
 ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All1.png)
 
+* L1 D CACHE MISS RATE
+
 ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All2.png)
 
+* L1 I CACHE MISS RATE
+
 ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All3.png)
+
+* L2 CACHE MISS RATE
 
 ![Διαγραμμα](https://github.com/tsomilios/Arch_assignment1/blob/readme/Assignment2/Diagrams/All4.png)
 
