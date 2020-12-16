@@ -1,0 +1,80 @@
+/n
+leakage: 1.149660 W 
+dynamic: 0.115602 W 
+runtime: 0.170818 s 
+energy : 216.129524 J
+/n
+leakage: 1.149600 W 
+dynamic: 0.115114 W 
+runtime: 0.168334 s 
+energy : 212.894366 J
+/n
+leakage: 1.148550 W 
+dynamic: 0.111228 W 
+runtime: 0.168487 s 
+energy : 212.256216 J
+/n
+leakage: 1.151130 W 
+dynamic: 0.120021 W 
+runtime: 0.165522 s 
+energy : 210.403456 J
+/n
+leakage: 1.428940 W 
+dynamic: 0.106467 W 
+runtime: 0.170812 s 
+energy : 262.265940 J
+/n
+leakage: 1.435220 W 
+dynamic: 0.115108 W 
+runtime: 0.168346 s 
+energy : 260.991517 J
+/n
+leakage: 1.430460 W 
+dynamic: 0.111228 W 
+runtime: 0.168487 s 
+energy : 259.754386 J
+/n
+leakage: 1.436750 W 
+dynamic: 0.120022 W 
+runtime: 0.165522 s 
+energy : 257.680015 J
+/n
+leakage: 1.550000 W 
+dynamic: 0.323145 W 
+runtime: 0.166916 s 
+energy : 312.657871 J
+/n
+leakage: 1.554490 W 
+dynamic: 0.326308 W 
+runtime: 0.164896 s 
+energy : 310.136067 J
+/n
+leakage: 1.551530 W 
+dynamic: 0.330131 W 
+runtime: 0.164627 s 
+energy : 309.772205 J
+/n
+leakage: 1.556020 W 
+dynamic: 0.334135 W 
+runtime: 0.162086 s 
+energy : 306.367663 J
+/n
+leakage: 1.831920 W 
+dynamic: 0.323146 W 
+runtime: 0.166916 s 
+energy : 359.714996 J
+/n
+leakage: 1.840110 W 
+dynamic: 0.326283 W 
+runtime: 0.164911 s 
+energy : 357.262036 J
+/n
+leakage: 1.833440 W 
+dynamic: 0.330146 W 
+runtime: 0.164620 s 
+energy : 356.169527 J
+/n
+leakage: 1.841630 W 
+dynamic: 0.334125 W 
+runtime: 0.162091 s 
+energy : 352.670304 J

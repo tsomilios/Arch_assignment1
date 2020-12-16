@@ -1,0 +1,48 @@
+
+leakage: 1.149660 W, dynamic: 0.115602 W and runtime: 0.170818 sec
+energy is 216.129524 mJ
+
+leakage: 1.149600 W, dynamic: 0.115114 W and runtime: 0.168334 sec
+energy is 212.894366 mJ
+
+leakage: 1.148550 W, dynamic: 0.111228 W and runtime: 0.168487 sec
+energy is 212.256216 mJ
+
+leakage: 1.151130 W, dynamic: 0.120021 W and runtime: 0.165522 sec
+energy is 210.403456 mJ
+
+leakage: 1.428940 W, dynamic: 0.106467 W and runtime: 0.170812 sec
+energy is 262.265940 mJ
+
+leakage: 1.435220 W, dynamic: 0.115108 W and runtime: 0.168346 sec
+energy is 260.991517 mJ
+
+leakage: 1.430460 W, dynamic: 0.111228 W and runtime: 0.168487 sec
+energy is 259.754386 mJ
+
+leakage: 1.436750 W, dynamic: 0.120022 W and runtime: 0.165522 sec
+energy is 257.680015 mJ
+
+leakage: 1.550000 W, dynamic: 0.323145 W and runtime: 0.166916 sec
+energy is 312.657871 mJ
+
+leakage: 1.554490 W, dynamic: 0.326308 W and runtime: 0.164896 sec
+energy is 310.136067 mJ
+
+leakage: 1.551530 W, dynamic: 0.330131 W and runtime: 0.164627 sec
+energy is 309.772205 mJ
+
+leakage: 1.556020 W, dynamic: 0.334135 W and runtime: 0.162086 sec
+energy is 306.367663 mJ
+
+leakage: 1.831920 W, dynamic: 0.323146 W and runtime: 0.166916 sec
+energy is 359.714996 mJ
+
+leakage: 1.840110 W, dynamic: 0.326283 W and runtime: 0.164911 sec
+energy is 357.262036 mJ
+
+leakage: 1.833440 W, dynamic: 0.330146 W and runtime: 0.164620 sec
+energy is 356.169527 mJ
+
+leakage: 1.841630 W, dynamic: 0.334125 W and runtime: 0.162091 sec
+energy is 352.670304 mJ

@@ -1,0 +1,64 @@
+Reading simulation time from: libm/1/results.txt
+Reading simulation time from: libm/1/stats.txt
+leakage: 1.147030 W, dynamic: 0.086979 W and runtime: 0.265062 sec
+energy is 327.088814 mJ
+Reading simulation time from: libm/2/results.txt
+Reading simulation time from: libm/2/stats.txt
+leakage: 1.149600 W, dynamic: 0.092641 W and runtime: 0.262429 sec
+energy is 326.000037 mJ
+Reading simulation time from: libm/3/results.txt
+Reading simulation time from: libm/3/stats.txt
+leakage: 1.148550 W, dynamic: 0.089140 W and runtime: 0.264999 sec
+energy is 327.986718 mJ
+Reading simulation time from: libm/4/results.txt
+Reading simulation time from: libm/4/stats.txt
+leakage: 1.151130 W, dynamic: 0.094766 W and runtime: 0.262371 sec
+energy is 326.887006 mJ
+Reading simulation time from: libm/5/results.txt
+Reading simulation time from: libm/5/stats.txt
+leakage: 1.428940 W, dynamic: 0.086980 W and runtime: 0.265056 sec
+energy is 401.803692 mJ
+Reading simulation time from: libm/6/results.txt
+Reading simulation time from: libm/6/stats.txt
+leakage: 1.435220 W, dynamic: 0.092640 W and runtime: 0.262433 sec
+energy is 400.960962 mJ
+Reading simulation time from: libm/7/results.txt
+Reading simulation time from: libm/7/stats.txt
+leakage: 1.430460 W, dynamic: 0.089140 W and runtime: 0.264999 sec
+energy is 402.692454 mJ
+Reading simulation time from: libm/8/results.txt
+Reading simulation time from: libm/8/stats.txt
+leakage: 1.436750 W, dynamic: 0.094768 W and runtime: 0.262365 sec
+energy is 401.816720 mJ
+Reading simulation time from: libm/9/results.txt
+Reading simulation time from: libm/9/stats.txt
+leakage: 1.550000 W, dynamic: 0.223343 W and runtime: 0.264042 sec
+energy is 468.237032 mJ
+Reading simulation time from: libm/10/results.txt
+Reading simulation time from: libm/10/stats.txt
+leakage: 1.554490 W, dynamic: 0.225094 W and runtime: 0.262429 sec
+energy is 467.014450 mJ
+Reading simulation time from: libm/11/results.txt
+Reading simulation time from: libm/11/stats.txt
+leakage: 1.551530 W, dynamic: 0.225575 W and runtime: 0.263881 sec
+energy is 468.944245 mJ
+Reading simulation time from: libm/12/results.txt
+Reading simulation time from: libm/12/stats.txt
+leakage: 1.556020 W, dynamic: 0.227248 W and runtime: 0.262371 sec
+energy is 467.877808 mJ
+Reading simulation time from: libm/13/results.txt
+Reading simulation time from: libm/13/stats.txt
+leakage: 1.831920 W, dynamic: 0.223348 W and runtime: 0.264034 sec
+energy is 542.660631 mJ
+Reading simulation time from: libm/14/results.txt
+Reading simulation time from: libm/14/stats.txt
+leakage: 1.840110 W, dynamic: 0.225091 W and runtime: 0.262433 sec
+energy is 541.976894 mJ
+Reading simulation time from: libm/15/results.txt
+Reading simulation time from: libm/15/stats.txt
+leakage: 1.833440 W, dynamic: 0.225574 W and runtime: 0.263881 sec
+energy is 543.334673 mJ
+Reading simulation time from: libm/16/results.txt
+Reading simulation time from: libm/16/stats.txt
+leakage: 1.841630 W, dynamic: 0.227252 W and runtime: 0.262365 sec
+energy is 542.802226 mJ

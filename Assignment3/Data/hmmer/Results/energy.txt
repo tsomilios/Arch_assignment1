@@ -1,0 +1,40 @@
+Reading simulation time from: hmmer/1/results.txt
+Reading simulation time from: hmmer/1/stats.txt
+leakage: 1.147030 W, dynamic: 0.122136 W and runtime: 0.155789 sec
+energy is 197.722102 mJ
+Reading simulation time from: hmmer/2/results.txt
+Reading simulation time from: hmmer/2/stats.txt
+leakage: 1.149660 W, dynamic: 0.132699 W and runtime: 0.141190 sec
+energy is 181.056267 mJ
+Reading simulation time from: hmmer/3/results.txt
+Reading simulation time from: hmmer/3/stats.txt
+leakage: 1.148560 W, dynamic: 0.125432 W and runtime: 0.155789 sec
+energy is 198.473940 mJ
+Reading simulation time from: hmmer/4/results.txt
+Reading simulation time from: hmmer/4/stats.txt
+leakage: 1.151160 W, dynamic: 0.133839 W and runtime: 0.141190 sec
+energy is 181.429009 mJ
+Reading simulation time from: hmmer/5/results.txt
+Reading simulation time from: hmmer/6/results.txt
+Reading simulation time from: hmmer/7/results.txt
+Reading simulation time from: hmmer/8/results.txt
+Reading simulation time from: hmmer/9/results.txt
+Reading simulation time from: hmmer/9/stats.txt
+leakage: 1.550010 W, dynamic: 0.354051 W and runtime: 0.144446 sec
+energy is 275.033995 mJ
+Reading simulation time from: hmmer/10/results.txt
+Reading simulation time from: hmmer/10/stats.txt
+leakage: 1.554540 W, dynamic: 0.362813 W and runtime: 0.140124 sec
+energy is 268.667172 mJ
+Reading simulation time from: hmmer/11/results.txt
+Reading simulation time from: hmmer/11/stats.txt
+leakage: 1.551540 W, dynamic: 0.355633 W and runtime: 0.144446 sec
+energy is 275.483511 mJ
+Reading simulation time from: hmmer/12/results.txt
+Reading simulation time from: hmmer/12/stats.txt
+leakage: 1.556050 W, dynamic: 0.363650 W and runtime: 0.140124 sec
+energy is 268.996043 mJ
+Reading simulation time from: hmmer/13/results.txt
+Reading simulation time from: hmmer/14/results.txt
+Reading simulation time from: hmmer/15/results.txt
+Reading simulation time from: hmmer/16/results.txt

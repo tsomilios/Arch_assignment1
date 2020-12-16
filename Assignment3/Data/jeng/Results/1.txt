@@ -1,0 +1,16 @@
+  Peak Power = 3.78201 W
+  Peak Power = 3.807 W
+  Peak Power = 3.8508 W
+  Peak Power = 3.87595 W
+  Peak Power = 4.31494 W
+  Peak Power = 4.34695 W
+  Peak Power = 4.38373 W
+  Peak Power = 4.4159 W
+  Peak Power = 4.67857 W
+  Peak Power = 4.68901 W
+  Peak Power = 4.74735 W
+  Peak Power = 4.75796 W
+  Peak Power = 5.2115 W
+  Peak Power = 5.22896 W
+  Peak Power = 5.28029 W
+  Peak Power = 5.29791 W

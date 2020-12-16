@@ -1,0 +1,16 @@
+sim_seconds                                  0.705643                       # Number of seconds simulated
+sim_seconds                                  0.705553                       # Number of seconds simulated
+sim_seconds                                  0.705600                       # Number of seconds simulated
+sim_seconds                                  0.705710                       # Number of seconds simulated
+sim_seconds                                  0.705640                       # Number of seconds simulated
+sim_seconds                                  0.705556                       # Number of seconds simulated
+sim_seconds                                  0.705595                       # Number of seconds simulated
+sim_seconds                                  0.040717                       # Number of seconds simulated
+sim_seconds                                  0.705583                       # Number of seconds simulated
+sim_seconds                                  0.705553                       # Number of seconds simulated
+sim_seconds                                  0.705733                       # Number of seconds simulated
+sim_seconds                                  0.705514                       # Number of seconds simulated
+sim_seconds                                  0.705581                       # Number of seconds simulated
+sim_seconds                                  0.705551                       # Number of seconds simulated
+sim_seconds                                  0.705541                       # Number of seconds simulated
+sim_seconds                                  0.705510                       # Number of seconds simulated

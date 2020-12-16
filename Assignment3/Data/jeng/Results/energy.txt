@@ -1,0 +1,64 @@
+Reading simulation time from: jeng/1/results.txt
+Reading simulation time from: jeng/1/stats.txt
+leakage: 1.147030 W, dynamic: 0.074271 W and runtime: 0.705643 sec
+energy is 861.802149 mJ
+Reading simulation time from: jeng/2/results.txt
+Reading simulation time from: jeng/2/stats.txt
+leakage: 1.149600 W, dynamic: 0.076273 W and runtime: 0.705553 sec
+energy is 864.918655 mJ
+Reading simulation time from: jeng/3/results.txt
+Reading simulation time from: jeng/3/stats.txt
+leakage: 1.148550 W, dynamic: 0.077010 W and runtime: 0.705600 sec
+energy is 864.755418 mJ
+Reading simulation time from: jeng/4/results.txt
+Reading simulation time from: jeng/4/stats.txt
+leakage: 1.151130 W, dynamic: 0.079037 W and runtime: 0.705710 sec
+energy is 868.140871 mJ
+Reading simulation time from: jeng/5/results.txt
+Reading simulation time from: jeng/5/stats.txt
+leakage: 1.428940 W, dynamic: 0.074271 W and runtime: 0.705640 sec
+energy is 1060.725739 mJ
+Reading simulation time from: jeng/6/results.txt
+Reading simulation time from: jeng/6/stats.txt
+leakage: 1.435220 W, dynamic: 0.076273 W and runtime: 0.705556 sec
+energy is 1066.443167 mJ
+Reading simulation time from: jeng/7/results.txt
+Reading simulation time from: jeng/7/stats.txt
+leakage: 1.430460 W, dynamic: 0.077011 W and runtime: 0.705595 sec
+energy is 1063.663930 mJ
+Reading simulation time from: jeng/8/results.txt
+Reading simulation time from: jeng/8/stats.txt
+leakage: 1.436750 W, dynamic: 0.087728 W and runtime: 0.040717 sec
+energy is 62.072167 mJ
+Reading simulation time from: jeng/9/results.txt
+Reading simulation time from: jeng/9/stats.txt
+leakage: 1.550000 W, dynamic: 0.171128 W and runtime: 0.705583 sec
+energy is 1214.398658 mJ
+Reading simulation time from: jeng/10/results.txt
+Reading simulation time from: jeng/10/stats.txt
+leakage: 1.554490 W, dynamic: 0.171708 W and runtime: 0.705553 sec
+energy is 1217.924177 mJ
+Reading simulation time from: jeng/11/results.txt
+Reading simulation time from: jeng/11/stats.txt
+leakage: 1.551530 W, dynamic: 0.173829 W and runtime: 0.705733 sec
+energy is 1217.642783 mJ
+Reading simulation time from: jeng/12/results.txt
+Reading simulation time from: jeng/12/stats.txt
+leakage: 1.556020 W, dynamic: 0.174492 W and runtime: 0.705514 sec
+energy is 1220.900443 mJ
+Reading simulation time from: jeng/13/results.txt
+Reading simulation time from: jeng/13/stats.txt
+leakage: 1.831920 W, dynamic: 0.171129 W and runtime: 0.705581 sec
+energy is 1413.313316 mJ
+Reading simulation time from: jeng/14/results.txt
+Reading simulation time from: jeng/14/stats.txt
+leakage: 1.840110 W, dynamic: 0.171709 W and runtime: 0.705551 sec
+energy is 1419.440907 mJ
+Reading simulation time from: jeng/15/results.txt
+Reading simulation time from: jeng/15/stats.txt
+leakage: 1.833440 W, dynamic: 0.173870 W and runtime: 0.705541 sec
+energy is 1416.239505 mJ
+Reading simulation time from: jeng/16/results.txt
+Reading simulation time from: jeng/16/stats.txt
+leakage: 1.841630 W, dynamic: 0.174494 W and runtime: 0.705510 sec
+energy is 1422.395643 mJ

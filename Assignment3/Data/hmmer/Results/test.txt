@@ -1,0 +1,176 @@
+1
+Core:
+      Area = 6.91295 mm^2
+      Subthreshold Leakage = 1.09545 W
+      Gate Leakage = 0.0072454 W
+      Runtime Dynamic = 0.0891426 W
+L2
+      Area = 2.08751 mm^2
+      Subthreshold Leakage = 0.00143628 W
+      Gate Leakage = 0.000194587 W
+      Runtime Dynamic = 0.0113534 W
+2
+Core:
+      Area = 6.98565 mm^2
+      Subthreshold Leakage = 1.098 W
+      Gate Leakage = 0.00726281 W
+      Runtime Dynamic = 0.106999 W
+L2
+      Area = 2.12555 mm^2
+      Subthreshold Leakage = 0.00148306 W
+      Gate Leakage = 0.000201415 W
+      Runtime Dynamic = 0.00405982 W
+3
+Core:
+      Area = 6.91295 mm^2
+      Subthreshold Leakage = 1.09545 W
+      Gate Leakage = 0.0072454 W
+      Runtime Dynamic = 0.0891426 W
+L2
+      Area = 4.16852 mm^2
+      Subthreshold Leakage = 0.00276444 W
+      Gate Leakage = 0.000393655 W
+      Runtime Dynamic = 0.0146492 W
+4
+Core:
+      Area = 6.98565 mm^2
+      Subthreshold Leakage = 1.098 W
+      Gate Leakage = 0.00726281 W
+      Runtime Dynamic = 0.106999 W
+L2
+      Area = 4.1658 mm^2
+      Subthreshold Leakage = 0.00278925 W
+      Gate Leakage = 0.000397114 W
+      Runtime Dynamic = 0.00519961 W
+5
+
+
+
+
+
+
+
+
+
+
+6
+
+
+
+
+
+
+
+
+
+
+7
+
+
+
+
+
+
+
+
+
+
+8
+
+
+
+
+
+
+
+
+
+
+9
+Core:
+      Area = 9.54069 mm^2
+      Subthreshold Leakage = 1.49478 W
+      Gate Leakage = 0.0108869 W
+      Runtime Dynamic = 0.326981 W
+L2
+      Area = 2.08751 mm^2
+      Subthreshold Leakage = 0.00143628 W
+      Gate Leakage = 0.000194587 W
+      Runtime Dynamic = 0.00542954 W
+10
+Core:
+      Area = 9.61665 mm^2
+      Subthreshold Leakage = 1.49924 W
+      Gate Leakage = 0.0109133 W
+      Runtime Dynamic = 0.338188 W
+L2
+      Area = 2.12555 mm^2
+      Subthreshold Leakage = 0.00148306 W
+      Gate Leakage = 0.000201415 W
+      Runtime Dynamic = 0.00298452 W
+11
+Core:
+      Area = 9.54069 mm^2
+      Subthreshold Leakage = 1.49478 W
+      Gate Leakage = 0.0108869 W
+      Runtime Dynamic = 0.326981 W
+L2
+      Area = 4.16852 mm^2
+      Subthreshold Leakage = 0.00276444 W
+      Gate Leakage = 0.000393655 W
+      Runtime Dynamic = 0.00701203 W
+12
+Core:
+      Area = 9.61665 mm^2
+      Subthreshold Leakage = 1.49924 W
+      Gate Leakage = 0.0109133 W
+      Runtime Dynamic = 0.338188 W
+L2
+      Area = 4.1658 mm^2
+      Subthreshold Leakage = 0.00278925 W
+      Gate Leakage = 0.000397114 W
+      Runtime Dynamic = 0.00382241 W
+13
+
+
+
+
+
+
+
+
+
+
+14
+
+
+
+
+
+
+
+
+
+
+15
+
+
+
+
+
+
+
+
+
+
+16
+
+
+
+
+
+
+
+
+
+
