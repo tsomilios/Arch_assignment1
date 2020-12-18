@@ -43,7 +43,7 @@
 Αρά : 
 ```
 Xeon : t1 * (Runtime Dynamic) + 40*t1*(Total Leakage) = 1546.1959t1 J
-Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868 J 
+Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J 
 ```
 
 Είναι ορατό πως για δεν γίνεται ο **Xeon** για αυτόν τον χρόνο λειτουργίας να είναι πιο αποδοτικός ενεργειακά από τον **Arm A9** καθώς απαιτεί 12 φορές περισσότερη ενέργεια.
