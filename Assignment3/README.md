@@ -194,6 +194,8 @@ Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J
 
 * Bzip
 
+
+
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/Peak_Power%20(w)%2C%20%20%20%20%20%20%20Area%20(mm%5E2)%20and%20%20%20%20%20%20%20Subthreshold%20Leakage%20(W).png)
 
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/energy(mJ)%20and%20EDP.png)
@@ -201,8 +203,6 @@ Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
 
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/leakage(W)%2C%20dynamic(W)%20and%20runtime.png)
-
-[Diagram](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqv0zP9m-2sMy4pgiWYey7GRjYF1U_oAtY8kXfKfBEFrTMe6th7REYrvM9iFNBePRU2oDkUdYGTPs7/pubchart?oid=775715063&format=interactive)
 
 * Hmmer
 
@@ -243,3 +243,5 @@ Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
 
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/leakage(W)%2C%20dynamic(W)%20and%20runtime(s).png)
+
+
