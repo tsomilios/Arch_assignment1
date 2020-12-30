@@ -244,4 +244,6 @@ Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J
 
 ![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/leakage(W)%2C%20dynamic(W)%20and%20runtime(s).png)
 
+## Κριτική
 
+## Πηγές - Βιβλιογραφία:
