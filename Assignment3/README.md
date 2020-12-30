@@ -189,3 +189,57 @@ Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J
 
 Ενώ για το Jeng είχαμε την μικρότερη τιμή με διαφορά για L1 icache= 128 kb
 
+## Βήμα 2
+### Ερώτημα 2
+
+* Bzip
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/Peak_Power%20(w)%2C%20%20%20%20%20%20%20Area%20(mm%5E2)%20and%20%20%20%20%20%20%20Subthreshold%20Leakage%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/energy(mJ)%20and%20EDP.png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/bizp/leakage(W)%2C%20dynamic(W)%20and%20runtime.png)
+
+[Diagram](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqv0zP9m-2sMy4pgiWYey7GRjYF1U_oAtY8kXfKfBEFrTMe6th7REYrvM9iFNBePRU2oDkUdYGTPs7/pubchart?oid=775715063&format=interactive)
+
+* Hmmer
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/hmmer/Peak_Power%20(w)%2C%20%20%20%20%20%20%20Area%20(mm%5E2)%20and%20%20%20%20%20%20%20Subthreshold%20Leakage%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/hmmer/energy(mJ)%20and%20EDP.png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/hmmer/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/hmmer/leakage(W)%2C%20dynamic(W)%20and%20runtime.png)
+
+* Jeng
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/jeng/Peak_Power%20(w)%2C%20%20%20%20%20%20%20Area%20(mm%5E2)%20and%20%20%20%20%20%20%20Subthreshold%20Leakage%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/jeng/energy(mJ)%20and%20EDP.png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/jeng/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/jeng/leakage(W)%2C%20dynamic(W)%20and%20runtime.png)
+
+* Libm
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/libm/Peak_Power%20(w)%2C%20%20%20%20%20%20%20Area%20(mm%5E2)%20and%20%20%20%20%20%20%20Subthreshold%20Leakage%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/libm/energy(mJ)%20and%20EDP.png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/libm/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/libm/leakage(W)%2C%20dynamic(W)%20and%20runtime.png)
+
+* Mcf
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/Peak_Power%20(w)%2C%20%20%20%20%20%20%20Area%20(mm%5E2)%20and%20%20%20%20%20%20%20Subthreshold%20Leakage%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/chart.png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/_%20%20%20%20%20Gate%20Leakage%20(W)%20and%20%20%20%20%20%20%20Runtime%20Dynamic%20(W).png)
+
+![Diagram](https://github.com/tsomilios/Arch_assignments/blob/readme/Assignment3/Diagrams/mcf/leakage(W)%2C%20dynamic(W)%20and%20runtime(s).png)
