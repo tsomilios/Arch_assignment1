@@ -189,7 +189,6 @@ Arm A9 : (Runtime Dynamic + Total Leakage) * 40 * t1 = 122.76868t1 J
 
 Ενώ για το Jeng είχαμε την μικρότερη τιμή με διαφορά για L1 icache= 128 kb
 
-## Βήμα 2
 ### Ερώτημα 2
 
 * Bzip
